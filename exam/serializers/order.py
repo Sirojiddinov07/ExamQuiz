@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from exam.models import Order
+from exam.models.order import Order
 
 class OrderSerializer(serializers.ModelSerializer):
     class Meta:

@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from exam.models import News
+from exam.models.news import News
 
 
 class NewsSerializer(serializers.ModelSerializer):

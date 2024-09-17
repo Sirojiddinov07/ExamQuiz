@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
-from exam.models import Question, Answer
+from exam.models.question import Question
+from exam.models.answer import  Answer
 from exam.serializers.answer import AnswerSerializer
 
 

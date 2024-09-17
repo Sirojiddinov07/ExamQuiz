@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from exam.models import Commentary
+from exam.models.commentary import Commentary
 
 
 class CommentarySerializer(serializers.ModelSerializer):
