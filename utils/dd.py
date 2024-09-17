@@ -1,4 +1,4 @@
-from core import exceptions
+import exceptions
 
 
 def dd(

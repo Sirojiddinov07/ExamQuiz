@@ -1,6 +1,6 @@
 from rest_framework import status
 
-from core import exceptions
+import exceptions
 
 
 class ResponseException:

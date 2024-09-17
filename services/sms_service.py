@@ -1,6 +1,6 @@
 import requests
 
-from config.env import env
+from account import env
 
 
 class SendService:
