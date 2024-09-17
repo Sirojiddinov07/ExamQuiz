@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
-from core.apps.mock.models import Question, Answer
-from core.apps.mock.serializers.answer import AnswerSerializer
+from exam.models import Question, Answer
+from exam.serializers.answer import AnswerSerializer
 
 
 class QuestionSerializer(serializers.ModelSerializer):

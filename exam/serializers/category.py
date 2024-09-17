@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from core.apps.mock.models import Category
+from exam.models import Category
 
 
 class CategorySerializer(serializers.ModelSerializer):

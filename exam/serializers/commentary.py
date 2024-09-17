@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from core.apps.mock.models import Commentary
+from exam.models import Commentary
 
 
 class CommentarySerializer(serializers.ModelSerializer):

@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from core.apps.mock.models import Order
+from exam.models import Order
 
 class OrderSerializer(serializers.ModelSerializer):
     class Meta:

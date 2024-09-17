@@ -1,7 +1,7 @@
 from rest_framework import serializers
-from core.apps.mock.models import Quizzes, Addition, Question
-from core.apps.mock.serializers.question import QuestionSerializer
-from core.apps.mock.serializers.addition import AdditionSerializer
+from exam.models import Quizzes, Addition, Question
+from exam.serializers.question import QuestionSerializer
+from exam.serializers.addition import AdditionSerializer
 
 class QuizzesSerializer(serializers.ModelSerializer):
     questions = serializers.SerializerMethodField()

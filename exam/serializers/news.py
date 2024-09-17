@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from core.apps.mock.models import News
+from exam.models import News
 
 
 class NewsSerializer(serializers.ModelSerializer):
